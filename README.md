@@ -1,4 +1,16 @@
+# The Organizer
+
+A TODO demo
+
+## Stack
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Connect to MySql instance
+
+```
+mysql -h localhost -P 3306 --protocol=tcp -u root -p
+```
 
 ## Getting Started
 
