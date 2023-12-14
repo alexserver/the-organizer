@@ -1,9 +1,9 @@
 "use client";
 
 import { type State, create } from "@/actions/create-board";
-import { Button } from "@/components/ui/button";
 import { useFormState } from "react-dom";
 import { FormInput } from "./form-input";
+import { FormButton } from "./form-button";
 
 export const Form = () => {
   const initialState: State = {
@@ -14,7 +14,7 @@ export const Form = () => {
   return (
     <form action={dispatch}>
       <FormInput errors={state?.errors} />
-      <Button type="submit">Create</Button>
+      <FormButton />
     </form>
   );
 };
